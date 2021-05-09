@@ -116,7 +116,7 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
       var homeHtmlToInsertIntoMainPage = insertProperty("$dc.loadMenuItems({{randomCategoryShortName}});",randomCategoryShortName, chosenCategoryShortName);
-      insertHtml ("#yassir", '<a href="#" onclick="$dc.loadMenuItems('+homeHtmlToInsertIntoMainPage+');"><div id="specials-tile"><span>specials</span></div></a>');
+      insertHtml ("#yassir", '<a href="#" onclick="$dc.loadMenuItems('+homeHtmlToInsertIntoMainPage+');"><div id="specials-tile"><span>specials</span></div></a>')
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
